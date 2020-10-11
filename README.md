@@ -189,3 +189,121 @@ After the **Gallery Texture** is added, the **Add Media** button will appear on 
 Currently the **Plane** object is white, based on the **Material** settings. For the next step, we will try to attach a texture from **Gallery Texture** to **Material** so that the image selected by the user can be displayed on the **Plane** object.
 
 Click **Material** that you want to change on **Assets** panel. In the **Properties** panel on the right side of the screen, pay attention to the **Shader Properties** section, in **Texture** click the drop down button and select **galleryTexture0** which is the name of our asset **Gallery Texture**.
+
+![texture to material](tutorial_images/18_add_texture_to_material.gif)
+
+If we pay attention, the **Plane** object that was originally white has changed to a checkerboard pattern again. This is because **Gallery Texture** doesn't have any data to display yet.
+
+In the next step we will install a default image which will be displayed before the user selects their own image.
+
+## Setting Up Holding Texture
+
+Click **Gallery Texture** on the **Assets** panel, on the **Properties** panel on the right side of the screen, put a check on **Holding Texture** and click **Choose File**.
+
+Choose the image file that you will use. You can use images that you downloaded at the beginning of this tutorial.
+
+![holding texture](tutorial_images/19_add_holding_image.gif)
+
+As seen in the preview, the **Plane** object now has a default texture which is the image we selected earlier.
+
+## Trying Add Media Feature
+
+We can try clicking the **Add Media** button to try to change the default image with the files we have.
+
+![test the button](tutorial_images/20_test_add_media.gif)
+
+This button will allow the user to use their own files in the **Filter** that we created.
+
+Congratulations! The filter that we made is almost finished, the next step is to try it on the device directly to make sure there are no problems in using it. We will do this in the next section.
+
+![goodjob](image/goodjob.gif) 
+
+# ![list](image/list.gif) Filter Testing And Publishing
+
+Testing before publishing **Filter** is one of the most important steps to make sure the **Filter** that we make goes well according to what we plan.
+
+## Testing Filter on Device
+
+There are two ways to test a device:
+- By installing Spark AR Player on the device
+- By using an Instagram account on the device
+
+### Testing using Spark AR Player
+
+**Spark AR Player** application available for Android and IOS, you can download it via the available link at https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-player-app.
+
+Once installed, connect the device to the PC using USB.
+
+On the bottom left **Spark AR Studio** there are several buttons, click the **Test On Device** button.
+
+Wait for the device name to appear, if it appears click the **Send** button. **Filters** are automatically executed on the device.
+
+![apps preview](tutorial_images/21_preview_apps.gif)
+
+If the device name does not appear, try to reconnect the device with the PC using USB.
+
+### Testing using an Instagram account
+
+On the bottom left **Spark AR Studio** there are several buttons, click on the **Test On Device** button. In the **Send to App** section, click **Send** on **Instagram Camera**.
+
+![instagram preview](tutorial_images/22_preview_instagram.gif)
+
+When it has been sent, check Instagram on your device, a notification will appear that you can tap to try the **Filter** that you have created.
+
+![notification](tutorial_images/23_notification.png)
+
+Actually we can also test using a Facebook account (Facebook Camera), but because we are using the **Gallery Texture** feature which can only be applied to Instagram, the Facebook Camera option is not displayed.
+
+## Publish Filters
+
+Before starting the publishing process, we need to prepare an icon and demo video.
+* Some of icon requirements are:
+   * Files in PNG or JPG format.
+   * It has square, not rounded corners.
+   * The color space is sRGB.
+   * The dimensions are a minimum of 200 x 200 pixels.
+   * It doesn't include any transparency.
+   * It doesn't use any of the Instagram color gradients.
+   
+   To make an icon that meets the requirements, please check the explanation at https://sparkar.facebook.com/ar-studio/learn/publishing/icons-and-names-for-spark-ar-effects. There is provided an icon template that can be used to fit the existing requirements.
+    
+* Some of demo video requirements are:
+   * Captured live and saved directly from the app's camera.
+   * Unedited (no Boomerang videos, no text overlays).
+   * Recorded in portrait (vertical) orientation.
+   * A maximum of 15 seconds long.
+   * A maximum of 32MB in size.
+   * Uploaded as a MOV or MP4 file.
+   
+   To make a demo video that meets the requirements, please check the explanation at https://sparkar.facebook.com/ar-studio/learn/publishing/demo-videos-for-instagram-effects.
+   
+### Upload and Export
+
+After preparing the icon and demo video, the next step is to upload the project to **Spark AR Hub** for publication.
+
+On the bottom left **Spark AR Studio** there are several buttons, click on the **Upload and Export** button. Then click **Upload** on the popup window that appears. Wait for the uploading process to complete.
+
+![export and upload](tutorial_images/23_export_and_upload.gif)
+
+After the upload process is complete we will be directed to the **Spark AR Hub** page.
+
+![spark ar hub](tutorial_images/24_spark_ar_hub.png)
+
+Input the required information and files. Some things that need to be considered include:
+* On the **Platform** only activate **Instagram**, because the **Gallery Texture** feature is not available on Facebook.
+* In **Categories**, choose the relevant category with **Filter** that we created, for this project you can choose **Appearence and Selfies**.
+* On **Publication date** you can choose whether it will be released immediately when it gets approval or if you want to schedule it at another time.
+
+![spark ar hub completed](tutorial_images/25_spark_ar_hub_complete.png)
+
+After all forms are filled in, click the **Submit** button which is on the upper right side of the **Spark AR Hub** page. If you haven't successfully completed filling out the form, you can click the **Save** button and continue on another occasion by accessing https://www.facebook.com/sparkarhub/effects/
+
+After completing submissions, we just have to wait for the **Filter** that we make to get approval.
+
+## Approval
+
+Before **Filter** can be used by the public, **Filter** will go through a **Review** process in a few days.
+
+If our **Filter** gets rejected, a notification will appear on **Facebook** and **Spark AR Hub**, please check the reason for rejection and make the necessary corrections. After all the repairs have been made, we can do submissions again.
+
+If our **Filter** is approved, a notification will also appear on **Facebook** and **Spark AR Hub**.
