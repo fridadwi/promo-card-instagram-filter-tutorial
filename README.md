@@ -304,6 +304,36 @@ After completing submissions, we just have to wait for the **Filter** that we ma
 
 Before **Filter** can be used by the public, **Filter** will go through a **Review** process in a few days.
 
-If our **Filter** gets rejected, a notification will appear on **Facebook** and **Spark AR Hub**, please check the reason for rejection and make the necessary corrections. After all the repairs have been made, we can do submissions again.
+If our **Filter** gets rejected, a notification will appear on **Facebook** and **Spark AR Hub**, please check the reason for rejection and make the necessary corrections. Resubmit after updating the **Filter**.
 
 If our **Filter** is approved, a notification will also appear on **Facebook** and **Spark AR Hub**.
+
+![notification](tutorial_images/28_approval_notif.png)
+
+To use the **Filter** that has been approved, we can get the link on **Spark AR Hub**.
+
+![spark ar hub link](tutorial_images/26_filter_link.png)
+
+Or it can be accessed via **Filter Tab** on your **Instagram** account, the tab marked with a face icon.
+
+![instagram filter tab](tutorial_images/27_filter_on_instagram.png)
+
+By getting approval, it means that the **Filter** that we have created can be used by the public in their **Instagram Story**.
+
+Congratulations! You have completed all the steps to create a **Filter** using **Spark AR Studio**.
+
+![goodjob](image/goodjob.gif) 
+
+
+# What is next?
+If you are interested in developing Instagram Filter more, you can visit the following link to try another interesting tutorials
+
+- link
+- link
+
+You can also join the Creators Group to discuss and share information on Filter development with Spark AR Studio
+
+
+# Conclusion
+
+Creating Instagram Filters can be easily done by anyone using **Spark AR Studio** with all its features. There are many things that can be developed and hopefully can create new opportunities in this challenging time.
