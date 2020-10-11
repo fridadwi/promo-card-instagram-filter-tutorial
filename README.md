@@ -63,3 +63,70 @@ In this section we will start to create a Filter project.
 
 ![start project](image/startproject.gif) 
 
+Please open **Spark AR Studio** which is already installed, the initial appearance of **Spark AR Studio** is a list of some of the templates provided, and there are several tutorials that you can try yourself later.
+
+![homepage](tutorial_images/01_homepage.PNG)
+
+## Opens Blank Project
+
+For now we'll start by creating a new project from scratch.
+
+Click **Create New** > **New Project**.
+
+A popup will appear for the project types you can create. Since at this point we will learn from scratch, choose **Blank Project**.
+
+![project baru](tutorial_images/02_new_project.gif)
+
+## Main Display of Spark AR Studio
+**Spark AR Studio** will open a new window which will become our workarea. If you pay attention, our workarea is divided into several main areas.
+
+![mainview](tutorial_images/03_Main_View.PNG)
+
+- A is the **Scene** panel. **Scene** panel is useful for arranging the order of objects that we will use. Ambient Light and Directional Light have been prepared by default. For this project we will just ignore the two light objects.
+- B is the **Assets** panel. We will use the **Assets** panel to organize the files that we use in the project, such as images and materials.
+- C is the **View** panel. In the middle section will be the main work area where we can directly view and edit the position and size of objects in our project.
+- D is the **Properties** panel. On the right side, there is a **Properties** panel which can be used to adjust the settings of the objects we use.
+
+## Added Face Tracker
+Detecting faces is the main thing we need to make this **Filter**, this feature is very easy for us to make because **Spark AR Studio** has provided several types of trackers including **Face Tracker**.
+
+To use Face Tracker on the **Scene** panel click the **Add Object** button which is on the lower right side then select **Face Tracker** then click **Insert**.
+
+![add face tracker](tutorial_images/04_add_facetracker.gif)
+
+**Face Tracker** object will be automatically added to hierarchy in **Scene** panel.
+If desired, you can also rename the object that we created by double-clicking or by right-clicking then select **Rename**.
+
+## Adding Plane Objects
+After the Face Tracker, now we need an object that will be the place to display our filter image. We are going to add Plane object
+
+To add a **Plane** we click the **Add Object** button on the **Scene** panel, then select **Plane** then click **Insert**.
+
+![add plane](tutorial_images/05_add_plane.gif)
+
+The **Plane** object has been added to the **Scene** panel and is also visible in the **View** panel. However, the **Plane** object is still not following the facial movements, we will fix it in the next step.
+
+![plane not move](tutorial_images/06_plane_not_move.gif)
+
+## Rearrange Object Hierarchy
+To make the **Plane** object move with the face's movement, we need to rearrange the object hierarchy in **Scene**. We need to move **Plane** into **Face Tracker** in order to move along with facial movements.
+
+To move it, on the **Scene** panel drag and drop the **Plane** object into the **Face Tracker** object.
+
+![drag and drop](tutorial_images/07_plane_heriarchy.gif)
+
+And as a result, the **Plane** object moves according to the facial movements.
+
+![plane moving](tutorial_images/08_plane_moving.gif)
+
+## Set Object Position
+If we notice that the position of the **Plane** object covers the face, we need to adjust the position according to what we want. There are several ways that can be done, you can directly move the object through the **View** panel or by using the input on the **Properties** panel located on the right side of the screen.
+
+### Using the View Panel
+Moving objects via **View** can be done by drag the existing arrow lines. To make it easier to move objects, we can **Pause** the camera preview by pressing the pause button on the left side of the screen.
+
+![pause](tutorial_images/09_pause_cam.gif)
+
+And to move, just click the object on the **Scene** panel and on **View** panel drag the object's arrow line to the desired position.
+
+![move arrow](tutorial_images/10_move_plane_arrow.gif)
