@@ -130,3 +130,62 @@ Moving objects via **View** can be done by drag the existing arrow lines. To mak
 And to move, just click the object on the **Scene** panel and on **View** panel drag the object's arrow line to the desired position.
 
 ![move arrow](tutorial_images/10_move_plane_arrow.gif)
+
+### Using the Properties Panel
+To move objects more precisely we can use the **Properties** panel. For example, we click on the object on the **Scene** panel and on the **Properties** panel on the right side of the screen we change the Position Y value to 0.1 so that the position of the **Plane** object moves to the forehead.
+
+![move properties](tutorial_images/11_move_plane_properties.gif)
+
+Apart from moving objects, these methods can also be used to change the object's size and rotation. Please try.
+
+Next we will add ** Material ** so that the object can have a color or image.
+
+## Adding Material
+
+If we look at the **Plane** object currently displayed in a checkerboard pattern, it means that the **Plane** object doesn't have any data yet to be displayed on the screen. To give an appearance to the **Plane** object we need an asset called **Material**.
+
+**Material** is an asset that will control how an object will be displayed on the screen. **Material** can display colors, images, or animation.
+
+To add **Material** click the **Add Asset** button on the **Assets** panel then select **Material**.
+
+![add material](tutorial_images/12_add_material.gif)
+
+## Attaching Material to Objects
+
+After the **Material** asset exists, the next step will be to attach the **Material** to the **Plane** object.
+
+Select the **Plane** object on the **Scene** panel, then on the **Properties** panel on the right side of the screen pay attention to the **Materials** section. Click the **+** button to select the **Material** that we have prepared.
+
+![place material](tutorial_images/13_place_material.gif)
+
+After pairing **Material**, **Plane** object turn white, following the **Material** settings.
+
+![white plane](tutorial_images/13a_white_material.gif)
+
+In the next section we will add a function to take an image from the user's file and attach it to the **Material** that has been created. This will allow users to create their own **Promo Card** image.
+
+## Add Gallery Texture Feature
+
+**Gallery Texture** is a feature of **Spark AR Studio** which allows us to use files from user's Gallery as material. When this tutorial was created, this feature is only available for the Instagram platform.
+
+To add **Gallery Texture**, on the **Assets** panel click **Add Asset** and select **Gallery Texture**.
+
+![add gallery texture](tutorial_images/14_add_gallery_texture.gif)
+
+Usually a **Warning Popup** will appear, meaning we need to deactivate Facebook on the platform we are aiming for. Click the **Review Platform** button then uncheck the Facebook option, then click **Done** to finish.
+
+![add gallery texture](tutorial_images/15_capability_popup.gif)
+
+Next we repeat the process of adding a **Gallery Texture**.
+
+![add gallery texture](tutorial_images/14_add_gallery_texture.gif)
+
+After the **Gallery Texture** is added, the **Add Media** button will appear on the preview camera which can be used by the user to select the images they have.
+
+![add media button](tutorial_images/17_add_media_button.PNG)
+
+## Applying Texture to Material
+
+Currently the **Plane** object is white, based on the **Material** settings. For the next step, we will try to attach a texture from **Gallery Texture** to **Material** so that the image selected by the user can be displayed on the **Plane** object.
+
+Click **Material** that you want to change on **Assets** panel. In the **Properties** panel on the right side of the screen, pay attention to the **Shader Properties** section, in **Texture** click the drop down button and select **galleryTexture0** which is the name of our asset **Gallery Texture**.
