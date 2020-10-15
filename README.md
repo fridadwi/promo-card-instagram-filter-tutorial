@@ -18,11 +18,11 @@ This tutorial will cover 3 main things:
 
 We hope that after following this tutorial you will be able to create your own filter that works well and managed to publish it.
 
-# ![list](tutorial_images/list.gif) Installing Spark AR Studio
+# ![list](tutorial_images/00_list.gif) Installing Spark AR Studio
 
 **Spark AR Studio** is an augmented reality platform for Mac & Windows that allows us to easily create AR effects for mobile cameras. In this section we will prepare the things needed for the use of **Spark AR Studio**.
 
-![prepare](tutorial_images/prepare.gif) 
+![prepare](tutorial_images/00_prepare.gif) 
 
 ## Requirements
 To install **Spark AR Studio** there are several things we need to prepare.
@@ -61,7 +61,7 @@ This is the end of the first part of the total 3 part tutorial. You have success
 
 In this section we will start to create a Filter project.
 
-![start project](tutorial_images/startproject.gif) 
+![start project](tutorial_images/00_startproject.gif) 
 
 Please open **Spark AR Studio** which is already installed, the initial appearance of **Spark AR Studio** is a list of some of the templates provided, and there are several tutorials that you can try yourself later.
 
