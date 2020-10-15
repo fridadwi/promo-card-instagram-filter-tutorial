@@ -1,20 +1,20 @@
 # Overview
 
-![pandemi](tutorial_images/00_sad.gif)
-
 On the ILO (International Labor Organization) [report](https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/briefingnote/wcms_755910.pdf), it is predicted that at least 490 million workers have lost or reduced their working hours due to the Covid-19 pandemic.
 
-Including here in Indonesia, many people have lost their source of income due to this pandemic. But not a few are trying to find new opportunities by opening small businesses. Various ways have been done to promote their business and of course social media has become a favorite platform to use. Instagram as one of the social media with the largest users in Indonesia is the main choice.
+![pandemi](tutorial_images/00_sad.gif)
 
-One of Instagram's great features for promotion is **Instagram Story** with various interesting **Filters**. In this tutorial we will try to create a **Filter** which can be used for promotion. This **Filter** will be in the form of a **Promo Card** which can be easily modified with an image or photo that the user has prepared himself for each promotion program.
+In Indonesia, many people have lost their source of income due to this pandemic. But not a few are trying to find new opportunities by opening small businesses. Various ways have been done to promote their business and of course social media has become a favorite platform to use. Instagram as one of the social media with the largest users in Indonesia is the main choice.
+
+One of Instagram's great features for promotion is **Instagram Story** with various interesting **Filters**. In this tutorial we will try to create a Filter which can be used for promotion. This Filter will be in the form of a **Promo Card** which can be easily modified with an image or photo that the user has prepared himself for each promotion program.
 
 We try to design this tutorial to be applied by users who are new to coding or have never even used **Spark AR Studio**, so hopefully it can help those who are looking for new opportunities in the midst of this pandemic.
 
 This tutorial will cover 3 main things:
 
 * Preparation and how to install **Spark AR Studio**
-* Create a simple **Filter** in the form of a **Promo Card** with the **Gallery Texture** feature, where later the user can use their own image or photo on the **Filter**.
-* Testing and the steps to publish **Filter** that we have created.
+* Create a simple Filter in the form of a **Promo Card** with the **Gallery Texture** feature, where later the user can use their own image or photo on the Filter.
+* Testing and the steps to publish Filter that we have created.
 
 We hope that after following this tutorial you will be able to create your own filter that works well and managed to publish it.
 
@@ -35,9 +35,9 @@ To install **Spark AR Studio** there are several things we need to prepare.
 More detailed specifications can be seen on the page https://sparkar.facebook.com/ar-studio/learn/downloads/#system-requirements
 
 ### Account
-In order to use **Spark AR Studio** and publish the **Filter** that we are going to create, several accounts are required:
+In order to use **Spark AR Studio** and publish the Filter that we are going to create, several accounts are required:
 * Facebook account, to log in and use **Spark AR Studio** and organize the projects that we will publish.
-* The Instagram account that was connected to the Facebook account, for testing and publishing the **Filter** that we created.
+* The Instagram account that was connected to the Facebook account, for testing and publishing the Filter that we created.
 
 ### Download Installer
 If all the requirements have been met, now we can start installing **Spark AR Studio** by downloading the latest version at
@@ -88,7 +88,7 @@ A popup will appear for the project types you can create. Since at this point we
 - D is the **Properties** panel. On the right side, there is a **Properties** panel which can be used to adjust the settings of the objects we use.
 
 ## Added Face Tracker
-Detecting faces is the main thing we need to make this **Filter**, this feature is very easy for us to make because **Spark AR Studio** has provided several types of trackers including **Face Tracker**.
+Detecting faces is the main thing we need to make this Filter, this feature is very easy for us to make because **Spark AR Studio** has provided several types of trackers including **Face Tracker**.
 
 To use Face Tracker on the **Scene** panel click the **Add Object** button which is on the lower right side then select **Face Tracker** then click **Insert**.
 
@@ -212,7 +212,7 @@ We can try clicking the **Add Media** button to try to change the default image 
 
 ![test the button](tutorial_images/20_test_add_media.gif)
 
-This button will allow the user to use their own files in the **Filter** that we created.
+This button will allow the user to use their own files in the Filter that we created.
 
 Congratulations! The filter that we made is almost finished, the next step is to try it on the device directly to make sure there are no problems in using it. We will do this in the next section.
 
@@ -220,7 +220,7 @@ Congratulations! The filter that we made is almost finished, the next step is to
 
 # ![list](tutorial_images/00_list.gif) Filter Testing And Publishing
 
-Testing before publishing **Filter** is one of the most important steps to make sure the **Filter** that we make goes well according to what we plan.
+Testing before publishing Filter is one of the most important steps to make sure the Filter that we make goes well according to what we plan.
 
 ## Testing Filter on Device
 
@@ -248,7 +248,7 @@ On the bottom left **Spark AR Studio** there are several buttons, click on the *
 
 ![instagram preview](tutorial_images/22_preview_instagram.gif)
 
-When it has been sent, check Instagram on your device, a notification will appear that you can tap to try the **Filter** that you have created.
+When it has been sent, check Instagram on your device, a notification will appear that you can tap to try the Filter that you have created.
 
 ![notification](tutorial_images/23_notification.png)
 
@@ -291,26 +291,26 @@ After the upload process is complete we will be directed to the **Spark AR Hub**
 
 Input the required information and files. Some things that need to be considered include:
 * On the **Platform** only activate **Instagram**, because the **Gallery Texture** feature is not available on Facebook.
-* In **Categories**, choose the relevant category with **Filter** that we created, for this project you can choose **Appearence and Selfies**.
+* In **Categories**, choose the relevant category with the filter that we created, for this project you can choose **Appearence and Selfies**.
 * On **Publication date** you can choose whether it will be released immediately when it gets approval or if you want to schedule it at another time.
 
 ![spark ar hub completed](tutorial_images/25_spark_ar_hub_complete.png)
 
 After all forms are filled in, click the **Submit** button which is on the upper right side of the **Spark AR Hub** page. If you haven't successfully completed filling out the form, you can click the **Save** button and continue on another occasion by accessing https://www.facebook.com/sparkarhub/effects/
 
-After completing submissions, we just have to wait for the **Filter** that we make to get approval.
+After completing submissions, we just have to wait for the Filter that we make to get approval.
 
 ## Approval
 
-Before **Filter** can be used by the public, **Filter** will go through a **Review** process in a few days.
+Before Filter can be used by the public, Filter will go through a **Review** process in a few days.
 
-If our **Filter** gets rejected, a notification will appear on **Facebook** and **Spark AR Hub**, please check the reason for rejection and make the necessary corrections. Resubmit after updating the **Filter**.
+If our Filter gets rejected, a notification will appear on **Facebook** and **Spark AR Hub**, please check the reason for rejection and make the necessary corrections. Resubmit after updating the Filter.
 
-If our **Filter** is approved, a notification will also appear on **Facebook** and **Spark AR Hub**.
+If our Filter is approved, a notification will also appear on **Facebook** and **Spark AR Hub**.
 
 ![notification](tutorial_images/28_approval_notif.png)
 
-To use the **Filter** that has been approved, we can get the link on **Spark AR Hub**.
+To use the Filter that has been approved, we can get the link on **Spark AR Hub**.
 
 ![spark ar hub link](tutorial_images/26_filter_link.png)
 
@@ -318,9 +318,9 @@ Or it can be accessed via **Filter Tab** on your **Instagram** account, the tab 
 
 ![instagram filter tab](tutorial_images/27_filter_on_instagram.png)
 
-By getting approval, it means that the **Filter** that we have created can be used by the public in their **Instagram Story**.
+By getting approval, it means that the Filter that we have created can be used by the public in their **Instagram Story**.
 
-Congratulations! You have completed all the steps to create a **Filter** using **Spark AR Studio**.
+Congratulations! You have completed all the steps to create a Filter using **Spark AR Studio**.
 
 ![goodjob](tutorial_images/00_goodjob.png) 
 
