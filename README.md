@@ -61,7 +61,7 @@ This is the end of the first part of the total 3 part tutorial. You have success
 
 In this section we will start to create a Filter project.
 
-![start project](tutorial_images/00_startproject.gif) 
+![start project](tutorial_images/00_start.gif) 
 
 Please open **Spark AR Studio** which is already installed, the initial appearance of **Spark AR Studio** is a list of some of the templates provided, and there are several tutorials that you can try yourself later.
 
