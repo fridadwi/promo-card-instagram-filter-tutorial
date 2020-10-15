@@ -4,17 +4,19 @@ On the ILO (International Labor Organization) [report](https://www.ilo.org/wcmsp
 
 ![pandemi](tutorial_images/00_sad.gif)
 
-In Indonesia, many people have lost their source of income due to this pandemic. But not a few are trying to find new opportunities by opening small businesses. Various ways have been done to promote their business and of course social media has become a favorite platform to use. Instagram as one of the social media with the largest users in Indonesia is the main choice.
+In Indonesia, many people have lost their source of income due to this pandemic. But not a few are trying to find new opportunities by opening small businesses. Instagram as one of the social media platform withthe largest users in Indonesia, that’s why many small businessowner choose this platform to promote their product.
 
-One of Instagram's great features for promotion is **Instagram Story** with various interesting **Filters**. In this tutorial we will try to create a Filter which can be used for promotion. This Filter will be in the form of a **Promo Card** which can be easily modified with an image or photo that the user has prepared himself for each promotion program.
+One of Instagram's great features for promotion is **Instagram Story** with various interesting **Filters**. In this tutorial we will try to create a Filter which can be used for promotion. This Filter will be in the form of a **Promo Card** that can be easily modified with an image or photo that  **user has prepared themself** for each promotion program.
+
+We hope the promo card filter can add more engagement for the business owner.
 
 We try to design this tutorial to be applied by users who are new to coding or have never even used **Spark AR Studio**, so hopefully it can help those who are looking for new opportunities in the midst of this pandemic.
 
-This tutorial will cover 3 main things:
+This tutorial will cover **3 main things**:
 
-* Preparation and how to install **Spark AR Studio**
-* Create a simple Filter in the form of a **Promo Card** with the **Gallery Texture** feature, where later the user can use their own image or photo on the Filter.
-* Testing and the steps to publish Filter that we have created.
+* **Preparation** and how to install Spark AR Studio
+* **Create a simple Filter** in the form of a Promo Card with the **Gallery Texture** feature, where later the user can use their own image or photo on the Filter.
+* **Testing** and the steps to **publish** Filter that we have created.
 
 We hope that after following this tutorial you will be able to create your own filter that works well and managed to publish it.
 
@@ -25,17 +27,18 @@ We hope that after following this tutorial you will be able to create your own f
 ![prepare](tutorial_images/00_prepare.gif) 
 
 ## Requirements
-To install **Spark AR Studio** there are several things we need to prepare.
+To install **Spark AR Studio** we need to prepare :
 
 ### Hardware
 **Spark AR Studio** requires a PC with the following minimum specifications
 * Minimum Operating System Windows 10 (64 bit) or MacOS 10.14+
 * 4GB minimum RAM
 
-More detailed specifications can be seen on the page https://sparkar.facebook.com/ar-studio/learn/downloads/#system-requirements
+More detailed specifications can be seen on this page https://sparkar.facebook.com/ar-studio/learn/downloads/#system-requirements
 
 ### Account
-In order to use **Spark AR Studio** and publish the Filter that we are going to create, several accounts are required:
+We need Facebook &instagram account to make this filter, if you don’t have one, please create it first.
+
 * Facebook account, to log in and use **Spark AR Studio** and organize the projects that we will publish.
 * The Instagram account that was connected to the Facebook account, for testing and publishing the Filter that we created.
 
@@ -63,7 +66,7 @@ In this section we will start to create a Filter project.
 
 ![start project](tutorial_images/00_start.gif) 
 
-Please open **Spark AR Studio** which is already installed, the initial appearance of **Spark AR Studio** is a list of some of the templates provided, and there are several tutorials that you can try yourself later.
+Open **Spark AR Studio** which is already installed, the initial appearance of **Spark AR Studio** is a list of some of the templates provided, and there are several tutorials that you can try yourself later.
 
 ![homepage](tutorial_images/01_homepage.PNG)
 
@@ -73,12 +76,12 @@ For now we'll start by creating a new project from scratch.
 
 Click **Create New** > **New Project**.
 
-A popup will appear for the project types you can create. Since at this point we will learn from scratch, choose **Blank Project**.
+A popup will appear for the project types you can create. Then choose **Blank Project**.
 
 ![project baru](tutorial_images/02_new_project.gif)
 
 ## Main Display of Spark AR Studio
-**Spark AR Studio** will open a new window which will become our workarea. If you pay attention, our workarea is divided into several main areas.
+**Spark AR Studio** will open a new window which will become our workarea. As you can see, our workarea is divided into several main areas.
 
 ![mainview](tutorial_images/03_Main_View.PNG)
 
@@ -88,23 +91,23 @@ A popup will appear for the project types you can create. Since at this point we
 - D is the **Properties** panel. On the right side, there is a **Properties** panel which can be used to adjust the settings of the objects we use.
 
 ## Added Face Tracker
-Detecting faces is the main thing we need to make this Filter, this feature is very easy for us to make because **Spark AR Studio** has provided several types of trackers including **Face Tracker**.
+Detecting faces is the key part to make this Filter, this feature is very easy for us to make because **Spark AR Studio** has provided several types of trackers including **Face Tracker**.
 
-To use Face Tracker on the **Scene** panel click the **Add Object** button which is on the lower right side then select **Face Tracker** then click **Insert**.
+To use Face Tracker on the **Scene** panel click the **Add Object** button on the lower right side then select **Face Tracker** then click **Insert**.
 
 ![add face tracker](tutorial_images/04_add_facetracker.gif)
 
 **Face Tracker** object will be automatically added to hierarchy in **Scene** panel.
-If desired, you can also rename the object that we created by double-clicking or by right-clicking then select **Rename**.
+You can also rename the object that we created by double-clicking or by right-clicking then select **Rename**.
 
 ## Adding Plane Objects
-After the Face Tracker, now we need an object that will be the place to display our filter image. We are going to add Plane object
+After the Face Tracker, we need an object that will be the place to display our filter image. We will add a Plane object
 
 To add a **Plane** we click the **Add Object** button on the **Scene** panel, then select **Plane** then click **Insert**.
 
 ![add plane](tutorial_images/05_add_plane.gif)
 
-The **Plane** object has been added to the **Scene** panel and is also visible in the **View** panel. However, the **Plane** object is still not following the facial movements, we will fix it in the next step.
+The **Plane** object has been added to the **Scene** panel and also visible in the **View** panel. However, the **Plane** object is still not following the facial movements, we will **fix it in the next step**.
 
 ![plane not move](tutorial_images/06_plane_not_move.gif)
 
@@ -120,19 +123,19 @@ And as a result, the **Plane** object moves according to the facial movements.
 ![plane moving](tutorial_images/08_plane_moving.gif)
 
 ## Set Object Position
-If we notice that the position of the **Plane** object covers the face, we need to adjust the position according to what we want. There are several ways that can be done, you can directly move the object through the **View** panel or by using the input on the **Properties** panel located on the right side of the screen.
+If we notice that the position of the **Plane** object covers the face, we need to re-adjust the position according to what we want. You can directly move the object through the **View** panel or by using the input on the **Properties** panel located on the right side of the screen.
 
 ### Using the View Panel
-Moving objects via **View** can be done by drag the existing arrow lines. To make it easier to move objects, we can **Pause** the camera preview by pressing the pause button on the left side of the screen.
+Moving object via **View** can be done by drag the existing arrow lines. To make it easier to move object, we can **Pause** the camera preview by pressing the pause button on the left side of the screen.
 
 ![pause](tutorial_images/09_pause_cam.gif)
 
-And to move, just click the object on the **Scene** panel and on **View** panel drag the object's arrow line to the desired position.
+And to move it, just click the object on the **Scene** panel and on **View** panel drag the object's arrow line to the desired position.
 
 ![move arrow](tutorial_images/10_move_plane_arrow.gif)
 
 ### Using the Properties Panel
-To move objects more precisely we can use the **Properties** panel. For example, we click on the object on the **Scene** panel and on the **Properties** panel on the right side of the screen we change the Position Y value to 0.1 so that the position of the **Plane** object moves to the forehead.
+To move objects more precisely we can use the **Properties** panel. For example, we click on the object on the **Scene** panel and on the **Properties** panel on the right side of the screen we can change the Position Y value to 0.1 so that the position of the **Plane** object moves to the forehead.
 
 ![move properties](tutorial_images/11_move_plane_properties.gif)
 
@@ -142,9 +145,9 @@ Next we will add ** Material ** so that the object can have a color or image.
 
 ## Adding Material
 
-If we look at the **Plane** object currently displayed in a checkerboard pattern, it means that the **Plane** object doesn't have any data yet to be displayed on the screen. To give an appearance to the **Plane** object we need an asset called **Material**.
+If we look at the **Plane** object that currently displayed in a checkerboard pattern, it means that the **Plane** object doesn't have any data yet to be displayed on the screen. To give an appearance to the **Plane** object we need an asset called **Material**.
 
-**Material** is an asset that will control how an object will be displayed on the screen. **Material** can display colors, images, or animation.
+**Material** is an asset that will control how an object will be displayed on the screen. **Material** can be colors, images, or animation.
 
 To add **Material** click the **Add Asset** button on the **Assets** panel then select **Material**.
 
@@ -172,7 +175,7 @@ To add **Gallery Texture**, on the **Assets** panel click **Add Asset** and sele
 
 ![add gallery texture](tutorial_images/14_add_gallery_texture.gif)
 
-Usually a **Warning Popup** will appear, meaning we need to deactivate Facebook on the platform we are aiming for. Click the **Review Platform** button then uncheck the Facebook option, then click **Done** to finish.
+Usually a **Warning Popup** will appear, meaning we need to deactivate Facebook on the platform we are aiming for. Follow the instruction by click the **Review Platform** button then uncheck the Facebook option, then click **Done** to finish.
 
 ![add gallery texture](tutorial_images/15_capability_popup.gif)
 
@@ -188,11 +191,11 @@ After the **Gallery Texture** is added, the **Add Media** button will appear on 
 
 Currently the **Plane** object is white, based on the **Material** settings. For the next step, we will try to attach a texture from **Gallery Texture** to **Material** so that the image selected by the user can be displayed on the **Plane** object.
 
-Click **Material** that you want to change on **Assets** panel. In the **Properties** panel on the right side of the screen, pay attention to the **Shader Properties** section, in **Texture** click the drop down button and select **galleryTexture0** which is the name of our asset **Gallery Texture**.
+Click **Material** that you want to change on **Assets** panel. In the **Properties** panel on the right side of the screen, pay attention to the **Shader Properties** section, in **Texture** click the drop down button and select **galleryTexture0** which is the default name of our asset **Gallery Texture**.
 
 ![texture to material](tutorial_images/18_add_texture_to_material.gif)
 
-If we pay attention, the **Plane** object that was originally white has changed to a checkerboard pattern again. This is because **Gallery Texture** doesn't have any data to display yet.
+You can also see that the **Plane** object that was originally white has changed to a checkerboard pattern again. This is because **Gallery Texture** doesn't have any data to display yet.
 
 In the next step we will install a default image which will be displayed before the user selects their own image.
 
@@ -200,43 +203,43 @@ In the next step we will install a default image which will be displayed before 
 
 Click **Gallery Texture** on the **Assets** panel, on the **Properties** panel on the right side of the screen, put a check on **Holding Texture** and click **Choose File**.
 
-Choose the image file that you will use. You can use images that you downloaded at the beginning of this tutorial.
+Choose the image file that you want to use or you can download the images from this [[link]]
 
 ![holding texture](tutorial_images/19_add_holding_image.gif)
 
-As seen in the preview, the **Plane** object now has a default texture which is the image we selected earlier.
+Like in the preview, the **Plane** object now has a default texture which is the image we selected earlier.
 
 ## Trying Add Media Feature
 
-We can try clicking the **Add Media** button to try to change the default image with the files we have.
+Click **Add Media** button and try to change the default image with the files we have.
 
 ![test the button](tutorial_images/20_test_add_media.gif)
 
 This button will allow the user to use their own files in the Filter that we created.
 
-Congratulations! The filter that we made is almost finished, the next step is to try it on the device directly to make sure there are no problems in using it. We will do this in the next section.
+Congratulations! The filter that we made is almost finished, the next step we will try it on the device directly to make sure there are no problems in using it. We will do this in the next section.
 
 ![goodjob](tutorial_images/00_goodjob.png) 
 
-# ![list](tutorial_images/00_list.gif) Filter Testing And Publishing
+# ![list](tutorial_images/00_list.gif) Filter Testing and Publishing
 
-Testing before publishing Filter is one of the most important steps to make sure the Filter that we make goes well according to what we plan.
+Testing before publishing Filter is an important steps to make sure the Filter that we make goes well according to what we want to.
 
 ## Testing Filter on Device
 
-There are two ways to test a device:
+There are two ways to test it on a device:
 - By installing Spark AR Player on the device
 - By using an Instagram account on the device
 
 ### Testing using Spark AR Player
 
-**Spark AR Player** application available for Android and IOS, you can download it via the available link at https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-player-app.
+**Spark AR Player** application is available for Android and IOS, you can download it via the available link at https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-player-app.
 
 Once installed, connect the device to the PC using USB.
 
 On the bottom left **Spark AR Studio** there are several buttons, click the **Test On Device** button.
 
-Wait for the device name to appear, if it appears click the **Send** button. **Filters** are automatically executed on the device.
+Wait for the device name to appear, if it appears click the **Send** button. **Filters** will automatically opened on the device.
 
 ![apps preview](tutorial_images/21_preview_apps.gif)
 
@@ -248,16 +251,14 @@ On the bottom left **Spark AR Studio** there are several buttons, click on the *
 
 ![instagram preview](tutorial_images/22_preview_instagram.gif)
 
-When it has been sent, check Instagram on your device, a notification will appear that you can tap to try the Filter that you have created.
+When it has been sent, check Instagram on your device, a notification will appear that you can **tap to try** the Filter that you have created.
 
 ![notification](tutorial_images/23_notification.png)
 
-Actually we can also test using a Facebook account (Facebook Camera), but because we are using the **Gallery Texture** feature which can only be applied to Instagram, the Facebook Camera option is not displayed.
-
 ## Publish Filters
 
-Before starting the publishing process, we need to prepare an icon and demo video.
-* Some of icon requirements are:
+Before starting the publishing process, let's prepare an icon and demo video.
+* Icon requirements:
    * Files in PNG or JPG format.
    * It has square, not rounded corners.
    * The color space is sRGB.
@@ -265,23 +266,23 @@ Before starting the publishing process, we need to prepare an icon and demo vide
    * It doesn't include any transparency.
    * It doesn't use any of the Instagram color gradients.
    
-   To make an icon that meets the requirements, please check the explanation at https://sparkar.facebook.com/ar-studio/learn/publishing/icons-and-names-for-spark-ar-effects. There is provided an icon template that can be used to fit the existing requirements.
+   For futher explanation about Icon, please check https://sparkar.facebook.com/ar-studio/learn/publishing/icons-and-names-for-spark-ar-effects. There is also provided an icon template that can be used to fit the existing requirements.
     
-* Some of demo video requirements are:
+* Demo video requirements:
    * Captured live and saved directly from the app's camera.
-   * Unedited (no Boomerang videos, no text overlays).
+   * Unedited (**no Boomerang videos, no text overlays**).
    * Recorded in portrait (vertical) orientation.
    * A maximum of 15 seconds long.
    * A maximum of 32MB in size.
    * Uploaded as a MOV or MP4 file.
    
-   To make a demo video that meets the requirements, please check the explanation at https://sparkar.facebook.com/ar-studio/learn/publishing/demo-videos-for-instagram-effects.
+   For futher explanation about Demo Video, please check https://sparkar.facebook.com/ar-studio/learn/publishing/demo-videos-for-instagram-effects.
    
 ### Upload and Export
 
 After preparing the icon and demo video, the next step is to upload the project to **Spark AR Hub** for publication.
 
-On the bottom left **Spark AR Studio** there are several buttons, click on the **Upload and Export** button. Then click **Upload** on the popup window that appears. Wait for the uploading process to complete.
+On the bottom left **Spark AR Studio**, click on the **Upload and Export** button. Then click **Upload** on the popup window that appears. Wait for the uploading process to complete.
 
 ![export and upload](tutorial_images/23_export_and_upload.gif)
 
@@ -290,21 +291,21 @@ After the upload process is complete we will be directed to the **Spark AR Hub**
 ![spark ar hub](tutorial_images/24_spark_ar_hub.png)
 
 Input the required information and files. Some things that need to be considered include:
-* On the **Platform** only activate **Instagram**, because the **Gallery Texture** feature is not available on Facebook.
+* On the **Platform**, be sure to activate **Instagram** and deactivade Facebook, because the **Gallery Texture** feature **is not available on Facebook**.
 * In **Categories**, choose the relevant category with the filter that we created, for this project you can choose **Appearence and Selfies**.
-* On **Publication date** you can choose whether it will be released immediately when it gets approval or if you want to schedule it at another time.
+* On **Publication date** you can choose whether it will be released immediately when it gets approval or you can also schedule it at another time.
 
 ![spark ar hub completed](tutorial_images/25_spark_ar_hub_complete.png)
 
-After all forms are filled in, click the **Submit** button which is on the upper right side of the **Spark AR Hub** page. If you haven't successfully completed filling out the form, you can click the **Save** button and continue on another occasion by accessing https://www.facebook.com/sparkarhub/effects/
+After all forms are filled in, click the **Submit** button which is on the upper right side of the **Spark AR Hub** page. If you haven't successfully completed filling out the form, you can click the **Save** button and continue on another time by accessing https://www.facebook.com/sparkarhub/effects/
 
-After completing submissions, we just have to wait for the Filter that we make to get approval.
+After completing submissions, we just have to **wait** for the Filter that we make to **get approval**.
 
 ## Approval
 
-Before Filter can be used by the public, Filter will go through a **Review** process in a few days.
+Before Filter can be used by the public, Filter will go through a **Review** process **in a few days**.
 
-If our Filter gets rejected, a notification will appear on **Facebook** and **Spark AR Hub**, please check the reason for rejection and make the necessary corrections. Resubmit after updating the Filter.
+If our **Filter gets rejected**, a notification will appear on **Facebook** and **Spark AR Hub**, please check the reason for rejection and correct all the necessary requirement before re-submit. After you made the update, you can re-submit the Filter.
 
 If our Filter is approved, a notification will also appear on **Facebook** and **Spark AR Hub**.
 
