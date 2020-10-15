@@ -55,7 +55,7 @@ To logout **Spark AR Studio** from the current account, you can do it after open
 
 This is the end of the first part of the total 3 part tutorial. You have successfully prepared **Spark AR Studio** to create **Filters** which will be discussed in the second part of this tutorial.
 
-![goodjob](tutorial_images/00_goodjob.gif) 
+![goodjob](tutorial_images/00_goodjob.png) 
 
 # ![list](tutorial_images/00_list.gif) Create a New Project
 
@@ -216,7 +216,7 @@ This button will allow the user to use their own files in the **Filter** that we
 
 Congratulations! The filter that we made is almost finished, the next step is to try it on the device directly to make sure there are no problems in using it. We will do this in the next section.
 
-![goodjob](tutorial_images/00_goodjob.gif) 
+![goodjob](tutorial_images/00_goodjob.png) 
 
 # ![list](tutorial_images/00_list.gif) Filter Testing And Publishing
 
@@ -322,7 +322,7 @@ By getting approval, it means that the **Filter** that we have created can be us
 
 Congratulations! You have completed all the steps to create a **Filter** using **Spark AR Studio**.
 
-![goodjob](tutorial_images/00_goodjob.gif) 
+![goodjob](tutorial_images/00_goodjob.png) 
 
 
 # What is next?
