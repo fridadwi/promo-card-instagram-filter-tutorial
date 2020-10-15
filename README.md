@@ -1,6 +1,6 @@
 # Overview
 
-![pandemi](tutorial_images/sad.gif)
+![pandemi](tutorial_images/00_sad.gif)
 
 On the ILO (International Labor Organization) [report](https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/briefingnote/wcms_755910.pdf), it is predicted that at least 490 million workers have lost or reduced their working hours due to the Covid-19 pandemic.
 
@@ -55,9 +55,9 @@ To logout **Spark AR Studio** from the current account, you can do it after open
 
 This is the end of the first part of the total 3 part tutorial. You have successfully prepared **Spark AR Studio** to create **Filters** which will be discussed in the second part of this tutorial.
 
-![goodjob](tutorial_images/goodjob.gif) 
+![goodjob](tutorial_images/00_goodjob.gif) 
 
-# ![list](tutorial_images/list.gif) Create a New Project
+# ![list](tutorial_images/00_list.gif) Create a New Project
 
 In this section we will start to create a Filter project.
 
@@ -216,9 +216,9 @@ This button will allow the user to use their own files in the **Filter** that we
 
 Congratulations! The filter that we made is almost finished, the next step is to try it on the device directly to make sure there are no problems in using it. We will do this in the next section.
 
-![goodjob](tutorial_images/goodjob.gif) 
+![goodjob](tutorial_images/00_goodjob.gif) 
 
-# ![list](tutorial_images/list.gif) Filter Testing And Publishing
+# ![list](tutorial_images/00_list.gif) Filter Testing And Publishing
 
 Testing before publishing **Filter** is one of the most important steps to make sure the **Filter** that we make goes well according to what we plan.
 
@@ -322,7 +322,7 @@ By getting approval, it means that the **Filter** that we have created can be us
 
 Congratulations! You have completed all the steps to create a **Filter** using **Spark AR Studio**.
 
-![goodjob](tutorial_images/goodjob.gif) 
+![goodjob](tutorial_images/00_goodjob.gif) 
 
 
 # What is next?
