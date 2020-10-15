@@ -87,7 +87,7 @@ A popup will appear for the project types you can create. Then choose **Blank Pr
 
 - A is the **Scene** panel. **Scene** panel is useful for arranging the order of objects that we will use. Ambient Light and Directional Light have been prepared by default. For this project we will just ignore the two light objects.
 - B is the **Assets** panel. We will use the **Assets** panel to organize the files that we use in the project, such as images and materials.
-- C is the **View** panel. In the middle section will be the main work area where we can directly view and edit the position and size of objects in our project.
+- C is the **View** panel. In the middle section will be the main work area where we can directly view and edit the position and size of objects in our project. A **Simulator** window is provided as an example of how it will look on the device.
 - D is the **Properties** panel. On the right side, there is a **Properties** panel which can be used to adjust the settings of the objects we use.
 
 ## Added Face Tracker
@@ -126,7 +126,7 @@ And as a result, the **Plane** object moves according to the facial movements.
 If we notice that the position of the **Plane** object covers the face, we need to re-adjust the position according to what we want. You can directly move the object through the **View** panel or by using the input on the **Properties** panel located on the right side of the screen.
 
 ### Using the View Panel
-Moving object via **View** can be done by drag the existing arrow lines. To make it easier to move object, we can **Pause** the camera preview by pressing the pause button on the left side of the screen.
+Moving object via **View** can be done by drag the existing arrow lines. To make it easier to move object, we can **Pause** the **Simulator** camera by pressing the pause button on the left side of the screen.
 
 ![pause](tutorial_images/09_pause_cam.gif)
 
@@ -183,7 +183,7 @@ Next we repeat the process of adding a **Gallery Texture**.
 
 ![add gallery texture](tutorial_images/14_add_gallery_texture.gif)
 
-After the **Gallery Texture** is added, the **Add Media** button will appear on the preview camera which can be used by the user to select the images they have.
+After the **Gallery Texture** is added, the **Add Media** button will appear on the **Simulator** camera which can be used by the user to select the images they have.
 
 ![add media button](tutorial_images/17_add_media_button.PNG)
 
@@ -207,7 +207,7 @@ Choose the image file that you want to use or you can download the images from t
 
 ![holding texture](tutorial_images/19_add_holding_image.gif)
 
-Like in the preview, the **Plane** object now has a default texture which is the image we selected earlier.
+Like in the **Simulator**, the **Plane** object now has a default texture which is the image we selected earlier.
 
 ## Trying Add Media Feature
 
@@ -327,14 +327,22 @@ Congratulations! You have completed all the steps to create a Filter using **Spa
 
 
 # What is next?
-If you are interested in developing Instagram Filter more, you can visit the following link to try another interesting tutorials
+If you are interested in developing Instagram Filter more, you can visit the following link to try another interesting tutorials and get more information.
 
-- link
-- link
+- https://sparkar.facebook.com/ar-studio/learn/
+- https://www.facebook.com/SparkARcreators/
 
-You can also join the Creators Group to discuss and share information on Filter development with Spark AR Studio
+You can also join the **[Spark AR Community](https://www.facebook.com/groups/SparkARcommunity "Spark AR Community")** to discuss and share information on Filter development with Spark AR Studio.
 
 
 # Conclusion
 
 Creating Instagram Filters can be easily done by anyone using **Spark AR Studio** with all its features. There are many things that can be developed and hopefully can create new opportunities in this challenging time.
+
+# Credit
+Creator :
+- Frida Dwi (Tutorial) https://www.instagram.com/ultrmnbstrd/
+- Estu Galih (2D Artist) https://www.instagram.com/nekozilla/
+
+This tutorial was inspired by:
+- https://sparkar.facebook.com/ar-studio/learn/articles/textures-and-materials/gallery-texture-and-gallery-picker
