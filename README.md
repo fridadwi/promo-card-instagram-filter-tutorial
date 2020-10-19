@@ -22,6 +22,41 @@ This tutorial will cover **3 main things**:
 
 We hope that after following this tutorial you will be able to create your own filter that works well and managed to publish it.
 
+# Table of Content
+- [Overview](#overview)
+- [Table of Content](#table-of-content)
+- [Installing Spark AR Studio](#installing-spark-ar-studio)
+  * [Requirements](#requirements)
+    + [Hardware](#hardware)
+    + [Account](#account)
+    + [Download Installer](#download-installer)
+    + [Facebook login](#facebook-login)
+- [Create a New Project](#create-a-new-project)
+  * [Opens Blank Project](#opens-blank-project)
+  * [Main Display of Spark AR Studio](#main-display-of-spark-ar-studio)
+  * [Added Face Tracker](#added-face-tracker)
+  * [Adding Plane Objects](#adding-plane-objects)
+  * [Rearrange Object Hierarchy](#rearrange-object-hierarchy)
+  * [Set Object Position](#set-object-position)
+    + [Using the View Panel](#using-the-view-panel)
+    + [Using the Properties Panel](#using-the-properties-panel)
+  * [Adding Material](#adding-material)
+  * [Attaching Material to Objects](#attaching-material-to-objects)
+  * [Add Gallery Texture Feature](#add-gallery-texture-feature)
+  * [Applying Texture to Material](#applying-texture-to-material)
+  * [Setting Up Holding Texture](#setting-up-holding-texture)
+  * [Trying Add Media Feature](#trying-add-media-feature)
+- [Filter Testing and Publishing](#filter-testing-and-publishing)
+  * [Testing Filter on Device](#testing-filter-on-device)
+    + [Testing using Spark AR Player](#testing-using-spark-ar-player)
+    + [Testing using an Instagram account](#testing-using-an-instagram-account)
+  * [Publish Filters](#publish-filters)
+    + [Upload and Export](#upload-and-export)
+  * [Approval](#approval)
+- [What is next?](#what-is-next)
+- [Conclusion](#conclusion)
+- [Credit](#credit)
+
 # ![list](tutorial_images/00_list.gif) Installing Spark AR Studio
 
 **Spark AR Studio** is an augmented reality platform for Mac & Windows that allows us to easily create AR effects for mobile cameras. In this section we will prepare the things needed for the use of **Spark AR Studio**.
