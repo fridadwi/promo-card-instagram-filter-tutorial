@@ -240,7 +240,7 @@ In the next step we will install a default image which will be displayed before 
 
 Click **Gallery Texture** on the **Assets** panel, on the **Properties** panel on the right side of the screen, put a check on **Holding Texture** and click **Choose File**.
 
-Choose the image file that you want to use or you can download the images from this [[link]]
+Choose the image file that you want to use or you can download the images from this [link](Assets.zip)
 
 ![holding texture](tutorial_images/19_add_holding_image.gif)
 
