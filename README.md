@@ -8,6 +8,8 @@ In Indonesia, many people have lost their source of income due to this pandemic.
 
 One of Instagram's great features for promotion is **Instagram Story** with various interesting **Filters**. In this tutorial we will try to create a Filter which can be used for promotion. This Filter will be in the form of a **Promo Card** that can be easily modified with an image or photo that  **user has prepared themself** for each promotion program.
 
+![filter](tutorial_images/00_sample.png)
+
 We hope the promo card filter can add more engagement for the business owner.
 
 We try to design this tutorial to be applied by users who are new to coding or have never even used **Spark AR Studio**, so hopefully it can help those who are looking for new opportunities in the midst of this pandemic.
