@@ -1,6 +1,6 @@
 # Overview
 
-On the ILO (International Labor Organization) [report](https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/briefingnote/wcms_755910.pdf), it is predicted that at least 490 million workers have lost or reduced their working hours due to the Covid-19 pandemic.
+On the ILO (International Labor Organization) [report](https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/briefingnote/wcms_755910.pdf), the estimated total working hours loss was 495 million full-time equivalent jobs (FTE) due to the Covid-19 pandemic.
 
 ![pandemi](tutorial_images/00_sad.gif)
 
