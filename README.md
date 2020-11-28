@@ -8,7 +8,7 @@ In Indonesia, many people have lost their source of income due to this pandemic.
 
 One of Instagram's great features for promotion is **Instagram Story** with various interesting **Filters**. In this tutorial we will try to create a Filter which can be used for promotion. This Filter will be in the form of a **Promo Card** that can be easily modified with an image or photo that  **user has prepared themself** for each promotion program.
 
-![filter](tutorial_images/00_sample.png)
+![filter](tutorial_images/sample01.gif)![filter](tutorial_images/sample02.gif)
 
 Please try the sample filter that we will create by visiting this link https://www.instagram.com/ar/950069895499758/
 
