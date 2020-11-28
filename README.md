@@ -1,28 +1,29 @@
 # Overview
 
-On the ILO (International Labor Organization) [report](https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/briefingnote/wcms_755910.pdf), the estimated total working hours loss was 495 million full-time equivalent jobs (FTE) due to the Covid-19 pandemic.
+On the ILO (International Labor Organization) [report](https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/briefingnote/wcms_755910.pdf), the estimated total working hours loss was 495 million full-time equivalent jobs (FTE) because of the COVID-19 pandemic.
 
 ![pandemi](tutorial_images/00_sad.gif)
 
-In Indonesia, many people have lost their source of income due to this pandemic. They are trying to find new opportunities by opening small businesses. Instagram as one of the social media platform with the largest users in Indonesia, that’s why many small businessowner choose this platform to promote their product.
+In Indonesia, many people have lost their source of income because of this pandemic. They are trying to find new opportunities by opening small businesses. The number of Instagram users in Indonesia is huge, that’s why many small business owners choose this platform to promote their product.
 
-One of Instagram's great features for promotion is **Instagram Story** with various interesting **Filters**. In this tutorial we will try to create a Filter which can be used for promotion. This Filter will be in the form of a **Promo Card** that can be easily modified with an image or photo that  **user has prepared themself** for each promotion program.
+One of Instagram’s outstanding features for promotion is **Instagram Story** with various interesting **Filters**. In this tutorial, we will try to create a filter for small business promotion. Users can change the **Filter image** with an image or photo that **they have prepared themselves** for each promotion program.
+
 
 ![filter](tutorial_images/sample01.gif)![filter](tutorial_images/sample02.gif)
 
-Please try the sample filter that we will create by visiting this link https://www.instagram.com/ar/950069895499758/
+To try out the sample filter we will create, you can visit this link https://www.instagram.com/ar/950069895499758
 
 We hope the promo card filter can add more engagement for the business owner.
 
-We try to design this tutorial to be applied by users who are new to coding or have never even used **Spark AR Studio**, so hopefully it can help those who are looking for new opportunities in the midst of this pandemic.
+We plan this tutorial for a beginner that never code or never uses **Spark AR Studio**. We hope this tutorial can help those who are looking for new opportunities amid this pandemic.
 
-This tutorial will cover **3 main things**:
+This tutorial will cover **3 fundamental things**:
 
 * **Preparation** and how to install Spark AR Studio
 * **Create a simple Filter** in the form of a Promo Card with the **Gallery Texture** feature, where later the user can use their own image or photo on the Filter.
-* **Testing** and the steps to **publish** Filter that we have created.
+* **Testing** and the steps to **publish** the Filter we have created.
 
-We hope that after following this tutorial you will be able to create your own filter that works well and managed to publish it.
+We hope that after following this tutorial, you can create your own filter that works well and published it.
 
 # Table of Content
 - [Overview](#overview)
@@ -61,41 +62,39 @@ We hope that after following this tutorial you will be able to create your own f
 
 # ![list](tutorial_images/00_list.gif) Installing Spark AR Studio
 
-**Spark AR Studio** is an augmented reality platform for Mac & Windows that allows us to easily create AR effects for mobile cameras. In this section we will prepare the things needed for the use of **Spark AR Studio**.
+**Spark AR Studio** is an augmented reality platform for Mac & Windows that help up create AR effects for mobile cameras. In this section, we will prepare the things needed for using **Spark AR Studio**.
 
 ![prepare](tutorial_images/00_prepare.gif) 
 
 ## Requirements
-To install **Spark AR Studio** we need to prepare :
+To install **Spark AR Studio**, we need to prepare:
 
 ### Hardware
-**Spark AR Studio** requires a PC with the following minimum specifications
-* Minimum Operating System Windows 10 (64 bit) or MacOS 10.14+
-* 4GB minimum RAM
+**Spark AR Studio** requires a PC with the following minimum specifications:
+* Operating System Windows 10 (64 bit) or MacOS 10.14+
+* 4GB RAM
 
-More detailed specifications can be seen on this page https://sparkar.facebook.com/ar-studio/learn/downloads/#system-requirements
+You can see more detailed specifications on this page https://sparkar.facebook.com/ar-studio/learn/downloads/#system-requirements
 
 ### Account
-We need Facebook &instagram account to make this filter, if you don’t have one, please create it first.
+We need Facebook & Instagram accounts to make this filter. If you don’t have one, please create it first.
 
-* Facebook account, to log in and use **Spark AR Studio** and organize the projects that we will publish.
-* The Instagram account that was connected to the Facebook account, for testing and publishing the Filter that we created.
+* **Facebook account**, to log in and use Spark AR Studio and organize the projects we will publish.
+* **Instagram account** that connected to the Facebook account for testing and publishing the Filter we created.
 
 ### Download Installer
-If all the requirements have been met, now we can start installing **Spark AR Studio** by downloading the latest version at
+If we have met all the requirements, now we can start installing **Spark AR Studio** by downloading the latest version at https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-studio
 
-https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-studio
-
-When this tutorial was created, the latest version in use is v98. After successfully downloading the installer, please install it according to the steps shown.
+We created this tutorial using version v98. After successfully downloading the installer, please install it according to the steps shown.
 
 ### Facebook login
-The first thing that is displayed when we open **Spark AR Studio** is a Facebook account login popup, fill it with your account data and then you can use **Spark AR Studio**.
+The first thing to show when we opened **Spark AR Studio** is a Facebook account login pop-up. Fill it with your account data, and then you can use **Spark AR Studio**.
 
 ![login](tutorial_images/00_login.PNG)
 
-To logout **Spark AR Studio** from the current account, you can do it after opening the project by: clicking **File** then selecting **Logout**.
+To log out **Spark AR Studio** from the current account, you can do it after opening the project by clicking **File**, then selecting **Log Out**.
 
-This is the end of the first part of the total 3 part tutorial. You have successfully prepared **Spark AR Studio** to create **Filters** which will be discussed in the second part of this tutorial.
+This is the end of the first part of the total 3 part tutorial. You have successfully prepared **Spark AR Studio** to create **Filters**. We will discuss creating filters in the next section.
 
 ![goodjob](tutorial_images/00_goodjob.png) 
 
