@@ -4,11 +4,13 @@ On the ILO (International Labor Organization) [report](https://www.ilo.org/wcmsp
 
 ![pandemi](tutorial_images/00_sad.gif)
 
-In Indonesia, many people have lost their source of income due to this pandemic. They are trying to find new opportunities by opening small businesses. Instagram as one of the social media platform withthe largest users in Indonesia, that’s why many small businessowner choose this platform to promote their product.
+In Indonesia, many people have lost their source of income due to this pandemic. They are trying to find new opportunities by opening small businesses. Instagram as one of the social media platform with the largest users in Indonesia, that’s why many small businessowner choose this platform to promote their product.
 
 One of Instagram's great features for promotion is **Instagram Story** with various interesting **Filters**. In this tutorial we will try to create a Filter which can be used for promotion. This Filter will be in the form of a **Promo Card** that can be easily modified with an image or photo that  **user has prepared themself** for each promotion program.
 
 ![filter](tutorial_images/00_sample.png)
+
+Please try the sample filter that we will create by visiting this link https://www.instagram.com/ar/950069895499758/
 
 We hope the promo card filter can add more engagement for the business owner.
 
