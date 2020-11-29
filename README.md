@@ -38,8 +38,8 @@ We hope that after following this tutorial, you can create your own filter that 
   * [Adding Plane Objects](#adding-plane-objects)
   * [Rearrange Object Hierarchy](#rearrange-object-hierarchy)
   * [Set Object Position](#set-object-position)
-    + [Using View Panel](#using-the-view-panel)
-    + [Using Properties Panel](#using-the-properties-panel)
+    + [Using View Panel](#using-view-panel)
+    + [Using Properties Panel](#using-properties-panel)
   * [Adding Material](#adding-material)
   * [Attaching Material to Objects](#attaching-material-to-objects)
   * [Add Gallery Texture Feature](#add-gallery-texture-feature)
@@ -361,6 +361,9 @@ Congratulations! You have completed all the steps to create a Filter using **Spa
 
 
 # What is next?
+
+All the project source is in [GitHub](src/). Feel free to observe the project and use it for your own projects.
+
 If you are interested in developing Instagram Filter more, you can visit the following link to try another interesting tutorials and get more information.
 
 - https://sparkar.facebook.com/ar-studio/learn/
