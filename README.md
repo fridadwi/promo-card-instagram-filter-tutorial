@@ -29,8 +29,8 @@ We hope that after following this tutorial, you can create your own filter that 
   * [Requirements](#requirements)
     + [Hardware](#hardware)
     + [Account](#account)
-    + [Download Installer](#download-installer)
-    + [Facebook login](#facebook-login)
+  * [Download Installer](#download-installer)
+  * [Facebook login](#facebook-login)
 - [Create a New Project](#-create-a-new-project)
   * [Opens Blank Project](#opens-blank-project)
   * [Main Display of Spark AR Studio](#main-display-of-spark-ar-studio)
@@ -59,7 +59,9 @@ We hope that after following this tutorial, you can create your own filter that 
 
 # ![list](tutorial_images/00_list.gif) Installing Spark AR Studio
 
-**Spark AR Studio** is an augmented reality platform for Mac & Windows that help up create AR effects for mobile cameras. In this section, we will prepare the things needed for using **Spark AR Studio**.
+**Spark AR Studio** is an augmented reality platform for Mac & Windows that help up create AR effects for mobile cameras. Spark AR studio is easy to use and learn, so there’s nothing to be afraid of! Let’s go!
+
+In this section, we will prepare the things needed for using **Spark AR Studio**.
 
 ![prepare](tutorial_images/00_prepare.gif) 
 
@@ -74,17 +76,14 @@ To install **Spark AR Studio**, we need to prepare:
 You can see more detailed specifications on this page https://sparkar.facebook.com/ar-studio/learn/downloads/#system-requirements
 
 ### Account
-We need Facebook & Instagram accounts to make this filter. If you don’t have one, please create it first.
+**Spark AR studios** use **Facebook account** to Log in their apps, and **Instagram account** to upload, test, and publish our filter. If you don’t have one, please create one and we’re ready to go!
 
-* **Facebook account**, to log in and use Spark AR Studio and organize the projects we will publish.
-* **Instagram account** that connected to the Facebook account for testing and publishing Filter we created.
-
-### Download Installer
+## Download Installer
 If we have met all the requirements, now we can start installing **Spark AR Studio** by downloading the latest version at https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-studio
 
 We created this tutorial using version v98. After successfully downloading the installer, please install it according to the steps shown.
 
-### Facebook login
+## Facebook login
 The first thing to show when we opened **Spark AR Studio** is a Facebook account login pop-up. Fill it with your account data, and then you can use **Spark AR Studio**.
 
 ![login](tutorial_images/00_login.PNG)
@@ -97,7 +96,8 @@ This is the end of the first part of total 3 part tutorial. You have successfull
 
 # ![list](tutorial_images/00_list.gif) Create a New Project
 
-In this section, we will create a Filter project.
+Now that **Spark AR Studio** has been installed, let's start to make the filter.
+In this section, we will create a **Filter project**.
 
 ![start project](tutorial_images/00_start.gif) 
 
@@ -141,12 +141,12 @@ To add a **Plane**, we click **Add Object** button on **Scene** panel, select **
 
 ![add plane](tutorial_images/05_add_plane.gif)
 
-**Plane** object added to **Scene** panel and also visible on **View** panel. However, **Plane** object is still not following the facial movements, we will **fix it in the next step**.
+**Plane** object added to **Scene** panel and it also visible on **View** panel. However, **Plane** object is still in place not following user’s head movement.  Don’t worry, we will **fix it in the next step**.
 
 ![plane not move](tutorial_images/06_plane_not_move.gif)
 
 ## Rearrange Object Hierarchy
-To make **Plane** object move with the face’s movement, we need to rearrange object hierarchy in **Scene**. We need to move **Plane** into **Face Tracker** to move along with facial movements.
+To make **Plane** object move with the face’s movement, we need to rearrange object hierarchy in **Scene** panel. We need to move **Plane** into **Face Tracker** to move along with facial movements.
 
 On **Scene** panel drag and drop **Plane** object into **Face Tracker** object.
 
@@ -223,7 +223,7 @@ After we add **Gallery Texture**, **Add Media** button will appear on **Simulato
 
 ## Applying Texture to Material
 
-Currently, **Plane** object is white, based on **Material** settings. For the next step, we will attach a texture from **Gallery Texture** to **Material** so it can display the image selected by user on **Plane** object.
+Currently, **Plane** object color is white, it is the default **Material** settings. For the next step, we will attach a texture from **Gallery Texture** to **Material** so it can display the image selected by user on **Plane** object.
 
 Click **Material** that you want to change on **Assets** panel. In **Properties** panel on the right side of screen, pay attention to **Shader Properties** section, in **Texture** click drop-down button and select **galleryTexture0** which is the default name of our asset **Gallery Texture**.
 
