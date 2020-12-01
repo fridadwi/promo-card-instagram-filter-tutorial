@@ -101,7 +101,9 @@ In this section, we will create a **Filter project**.
 
 ![start project](tutorial_images/00_start.gif) 
 
-Open **Spark AR Studio**, the initial appearance of **Spark AR Studio** is a list of templates provided, and there are several tutorials that you can try yourself later.
+Open **Spark AR Studio**
+
+On the **Spark AR Studio** home screen, a variety of templates and tutorials are displayed. (Psstt.. these templates and tutorials are great resources for learning, don't forget to check them out).
 
 ![homepage](tutorial_images/01_homepage.PNG)
 
@@ -122,11 +124,11 @@ A pop-up will appear for the project types you can create. Then choose **Blank P
 
 - A is **Scene** panel. **Scene** panel is useful for arranging order of objects that we will use. Ambient Light and Directional Light available by default. For this project, we will just ignore these two light objects.
 - B is **Assets** panel. We will use **Assets** panel to organize files we use in the project, such as images and materials.
-- C is **View** panel. The middle section will be your primary work area where you can directly view and edit the position and size of objects in your project. **Spark AR Studio** also provides a **Simulator** window.
+- C is **View** panel. The middle section will be your primary work area where you can directly view and edit the position and size of objects in your project. **Spark AR Studio** also provides a **Simulator** window. Use the **Simulator** in **Spark AR Studio** to quickly see how your effect would look on a device, as you're building.
 - D is **Properties** panel for adjusting object settings we use.
 
 ## Added Face Tracker
-Detecting faces is the key part to make this Filter. This feature is very easy to create because **Spark AR Studio** has provided several types of trackers, including **Face Tracker**.
+Detecting faces and follow its movement is the key part to make this Filter. This feature is very easy to create because **Spark AR Studio** has provided several types of trackers, including **Face Tracker**.
 
 To use **Face Tracker** on **Scene** panel, click **Add Object** button on the lower right side select **Face Tracker** then click **Insert**.
 
@@ -146,7 +148,7 @@ To add a **Plane**, we click **Add Object** button on **Scene** panel, select **
 ![plane not move](tutorial_images/06_plane_not_move.gif)
 
 ## Rearrange Object Hierarchy
-To make **Plane** object move with the face’s movement, we need to rearrange object hierarchy in **Scene** panel. We need to move **Plane** into **Face Tracker** to move along with facial movements.
+In the object hierarchy, an object placed inside another object will also follow the parent object movement. To make **Plane** object move with the face’s movement, we need to rearrange object hierarchy in **Scene** panel. We need to move **Plane** into **Face Tracker** to move along with facial movements.
 
 On **Scene** panel drag and drop **Plane** object into **Face Tracker** object.
 
@@ -209,7 +211,7 @@ To add **Gallery Texture**, on **Assets** panel click **Add Asset** and select *
 
 ![add gallery texture](tutorial_images/14_add_gallery_texture.gif)
 
-Usually, a **Warning pop-up** will appear. We need to deactivate Facebook on the platform we are aiming for. Follow the instruction by click **Review Platform** button then uncheck Facebook option, then click **Done** to finish
+Usually, a **Warning pop-up** will appear. We need to deactivate Facebook on the platform we are aiming for (because **Gallery Texture** is only available for Instagram platform). Follow the instruction by click **Review Platform** button then uncheck Facebook option, then click **Done** to finish
 
 ![add gallery texture](tutorial_images/15_capability_popup.gif)
 
@@ -234,6 +236,8 @@ Click **Material** that you want to change on **Assets** panel. In **Properties*
 In the next step, we will place a default image to display before user selects their own image.
 
 ## Setting Up Holding Texture
+
+**Holding Texture** is the default image **Gallery Texture** use before users select an image of their own choice. Let's set it up.
 
 Click **Gallery Texture** on **Assets** panel, on **Properties** panel on the right side of screen, put a check on **Holding Texture**, and click **Choose File**.
 
@@ -267,6 +271,8 @@ There are two ways to test it on a device:
 
 ### Testing using Spark AR Player
 
+You can use **Spark AR Player** to mirror effects, like masks and frames, from your computer to your mobile device and test how your creations respond to movement and interaction.
+
 **Spark AR Player** application is available for Android and IOS, you can download it at https://sparkar.facebook.com/ar-studio/learn/downloads/#spark-ar-player-app.
 
 Once installed, connect device to PC using USB cable.
@@ -280,6 +286,8 @@ Wait for device name to appear and then click **Send** button. **Filters** will 
 If device name does not appear, try to reconnect device with PC using USB cable.
 
 ### Testing using an Instagram account
+
+If you don't have access to **Spark AR Player**, you can also use your **Instagram** for testing.
 
 On the bottom left **Spark AR Studio** there are several buttons, click on **Test On Device** button. In **Send to App** section, click **Send** on **Instagram Camera**.
 
